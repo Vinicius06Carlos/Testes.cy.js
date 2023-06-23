@@ -32,7 +32,7 @@ describe('Validar testes', () => {
         // consultar usuario 
 
         cy.get(':nth-child(3) > [style="width: 15%; justify-content: flex-start;"] > :nth-child(2) > svg').click()
-       cy.get(':nth-child(2) > .sc-iqcoie').should('eq', 'Vinicius Carlos')
+        cy.get(':nth-child(2) > .sc-iqcoie').should('eq', 'Vinicius Carlos')
         cy.get('.sc-bczRLJ').click()
 
 
