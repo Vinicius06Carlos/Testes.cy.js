@@ -3,8 +3,6 @@
 
 // teste Vinicius
 
-const { should } = require("chai");
-
 describe('Validar testes', () => {
 
 
